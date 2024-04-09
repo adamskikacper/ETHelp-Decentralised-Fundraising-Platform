@@ -4,7 +4,7 @@ import { useLocation, useNavigate, Link } from "react-router-dom";
 import { useStateContext } from "../context";
 import { CustomButton, Loader, Footer } from "../components";
 import { calculateBarPercentage, daysLeft } from "../utils";
-import { ethereumCoin } from "../assets";
+import { ethereumCoin, metamask } from "../assets";
 import { Navbar } from "../components";
 const CampaignDetails = () => {
   const { state } = useLocation();
@@ -105,10 +105,21 @@ const CampaignDetails = () => {
               alt="campaign image"
               className="rounded-[10px] shadow-lg h-[300px] object-cover lg:h-[400px] w-full"
             />
-
             <h1 className="font-epilogue font-bold text-[30px] pt-3 md:pt- md:text-[40px] lg:text-[55px] text-grey-950 dark:text-grey-50">
               {state.title}
             </h1>
+            <div className="flex items-center mt-[20px] gap-[12px]">
+              <div className="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-[#13131a]">
+                <img
+                  src={metamask}
+                  alt="user"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+              <p className="flex-1 font-epilogue font-normal text-[12px] text-[#808191] truncate">
+                by <span className="text-[#b2b3bd]">{state.owner}</span>
+              </p>
+            </div>
           </header>
 
           <div className="xl:row-span-2">

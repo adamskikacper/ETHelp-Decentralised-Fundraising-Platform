@@ -77,16 +77,7 @@ const Navbar = () => {
 
             <li className="flex items-center">
               <Link
-                to="/"
-                className="text-grey-950 dark:text-grey-200 font-epilogue font-semibold px-4"
-              >
-                <p className="text-nowrap">How to donate</p>
-              </Link>
-            </li>
-
-            <li className="flex items-center">
-              <Link
-                to="/"
+                to="/how-it-works"
                 className="text-grey-950 dark:text-grey-200 font-epilogue font-semibold px-4"
               >
                 <p className="text-nowrap">How it works</p>

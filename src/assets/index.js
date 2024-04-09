@@ -16,6 +16,16 @@ import metamask from './metamask-icon.svg';
 import ethereumDonation from './ethereum-donation.jpg';
 import ethereumCoin from './ethereum-coin4.svg';
 import questionMark from './question-mark-illustration.jpg';
+import connectMetamask from './connect-to-metamask.jpg';
+import navigateCampaigns from './navigate-campaigns.jpg';
+import campaign from './campaign.jpg';
+import donation from './donation.jpg';
+import confirmTransaction from './confirm-transaction.jpg';
+import navigateDashboard from './navigate-dashboard.jpg';
+import createCampaignNav from './create-campaign.jpg';
+import campaignForm from './campaign-form.jpg';
+import addressCampaign from'./address-campaign.jpg';
+import etherScan from './etherscan-address.jpg'
 export {
   tagType,
   createCampaign,
@@ -35,4 +45,14 @@ export {
   metamask,
   ethereumCoin,
   questionMark,
+  connectMetamask,
+  navigateCampaigns,
+  campaign,
+  donation,
+  confirmTransaction,
+  navigateDashboard,
+  createCampaignNav,
+  campaignForm,
+  addressCampaign,
+  etherScan
 };

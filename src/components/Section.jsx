@@ -32,12 +32,14 @@ const Section = ({
             {subtitle}
           </p>
 
-          <CustomButton
-            btnType={btnType}
-            title={buttonText}
-            styles={btnStyles}
-            handleClick={handleButtonClick}
-          />
+          {buttonText && (
+            <CustomButton
+              btnType={btnType}
+              title={buttonText}
+              styles={btnStyles}
+              handleClick={handleButtonClick}
+            />
+          )}
         </div>
 
         <img

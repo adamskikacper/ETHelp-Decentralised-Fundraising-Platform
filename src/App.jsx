@@ -1,7 +1,13 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import { Home, Dashboard, CampaignDetails, CreateCampaign } from "./pages";
+import {
+  Home,
+  Dashboard,
+  CampaignDetails,
+  CreateCampaign,
+  HowItWorks,
+} from "./pages";
 import Campaigns from "./pages/Campaigns";
 
 const App = () => {
@@ -16,6 +22,10 @@ const App = () => {
           <Route
             path="/campaigns"
             element={<Campaigns />}
+          />
+          <Route
+            path="/how-it-works"
+            element={<HowItWorks />}
           />
           <Route
             path="/campaign-details/:id"
