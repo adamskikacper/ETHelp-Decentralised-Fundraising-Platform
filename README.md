@@ -1,4 +1,4 @@
-ETHelp is a decentralized fundraising platform built on the Ethereum blockchain using Web3 technology. It allows users to create and donate to fundraising campaigns securely and transparently.
+ETHelp is a decentralised fundraising platform built on the Ethereum blockchain using Web3 technology. It allows users to create and donate to fundraising campaigns securely and transparently.
 
 Instructions to run the project from terminal:
 
