@@ -1,47 +1,19 @@
-## Getting Started
+ETHelp is a decentralized fundraising platform built on the Ethereum blockchain using Web3 technology. It allows users to create and donate to fundraising campaigns securely and transparently.
 
-Create a project using this example:
+Instructions to run the project:
 
-```bash
-npx thirdweb create --contract --template hardhat-javascript-starter
-```
+1. Clone the repository:
+git clone https://github.com/pandaffu/ETHelp---Web3-Fundraising-Platform.git
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+2. Navigate to the project directory:
+cd ETHelp---Web3-Fundraising-Platform
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) to learn more.
+3. Install dependencies:
+npm install
 
-## Building the project
+4. Run the project
+npm run dev
 
-After any changes to the contract, run:
+5.After the server has started successfully, you can access the platform by visiting the provided URL in the terminal e.g.
 
-```bash
-npm run build
-# or
-yarn build
-```
-
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) detected on your contract.
-
-## Deploying Contracts
-
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
-
-```bash
-npm run deploy
-# or
-yarn deploy
-```
-
-## Releasing Contracts
-
-If you want to release a version of your contracts publicly, you can use one of the followings command:
-
-```bash
-npm run release
-# or
-yarn release
-```
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+http://localhost:5173/
