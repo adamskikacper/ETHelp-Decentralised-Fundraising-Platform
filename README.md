@@ -1,6 +1,6 @@
 ETHelp is a decentralized fundraising platform built on the Ethereum blockchain using Web3 technology. It allows users to create and donate to fundraising campaigns securely and transparently.
 
-Instructions to run the project:
+Instructions to run the project from terminal:
 
 1. Clone the repository:
 git clone https://github.com/pandaffu/ETHelp---Web3-Fundraising-Platform.git
@@ -11,9 +11,9 @@ cd ETHelp---Web3-Fundraising-Platform
 3. Install dependencies:
 npm install
 
-4. Run the project
+4. Run the project:
 npm run dev
 
-5.After the server has started successfully, you can access the platform by visiting the provided URL in the terminal e.g.
+5. Access the platform by the provided URL in the terminal e.g.
 
 http://localhost:5173/
