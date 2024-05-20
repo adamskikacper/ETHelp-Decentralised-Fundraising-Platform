@@ -14,6 +14,4 @@ npm install
 4. Run the project:
 npm run dev
 
-5. Access the platform by the provided URL in the terminal e.g.
-
-http://localhost:5173/
+5. Access the platform by the provided URL in the terminal e.g. http://localhost:5173/
