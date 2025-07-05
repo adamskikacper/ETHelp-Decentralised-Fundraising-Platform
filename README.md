@@ -3,7 +3,7 @@ ETHelp is a decentralised fundraising platform built on the Ethereum blockchain 
 Instructions to run the project from terminal:
 
 1. Clone the repository:
-git clone https://github.com/pandaffu/ETHelp---Web3-Fundraising-Platform.git
+git clone [https://github.com/pandaffu/ETHelp---Web3-Fundraising-Platform.git](https://github.com/adamskikacper/ETHelp-Decentralised-Fundraising-Platform.git)
 
 2. Navigate to the project directory:
 cd ETHelp---Web3-Fundraising-Platform
